@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace Basics
 {
-    public class GridConfig : MonoBehaviour
+    public class GridConfig : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
     {
 
         public Color _Color;
@@ -22,14 +20,8 @@ namespace Basics
             DefaultColor = _Renderer.material.color;
         }
 
-        void OnMouseEnter()
+        public void OnPointerDown(PointerEventData eventData)
         {
-            _Renderer.material.color = _Color;      
-        }
-
-        void OnMouseDown()
-        {           
-
             if (_Turret != null)
             {
                 Debug.Log("Can´t build there");
@@ -38,9 +30,14 @@ namespace Basics
 
             GameObject TurretToBuild = TurretBuilder.Instance.GiveTurretToBuild();
             _Turret = (GameObject)Instantiate(TurretToBuild, transform.position + OnClickPosition, transform.rotation);
-        }         
+        }
 
-        void OnMouseExit()
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            _Renderer.material.color = _Color;
+        }
+
+        public void OnPointerExit(PointerEventData eventData)
         {
             _Renderer.material.color = DefaultColor;
         }
