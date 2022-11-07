@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.181546, g: 0.22718903, b: 0.30740726, a: 1}
+  m_IndirectSpecularColor: {r: 0.18154661, g: 0.2271898, b: 0.3074084, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8991,7 +8991,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 230265952}
-  - component: {fileID: 230265951}
+  - component: {fileID: 230265953}
   m_Layer: 0
   m_Name: CameraManager
   m_TagString: Untagged
@@ -8999,20 +8999,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &230265951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 230265950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acc943596554c4843b4bf26c843b2738, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _Camera: {fileID: 615321813}
-  _FocusPoint: {fileID: 288212945}
 --- !u!4 &230265952
 Transform:
   m_ObjectHideFlags: 0
@@ -9030,6 +9016,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 28, y: 45, z: 0}
+--- !u!114 &230265953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230265950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc943596554c4843b4bf26c843b2738, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sensitivity: 0.1
 --- !u!1001 &230329041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11826,7 +11825,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: df8d0d22104338a46b9857cfa9c30bd0, type: 3}
+    m_Font: {fileID: 12800000, guid: d06833812c141304f99a8da51fab53d5, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
@@ -26518,7 +26517,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: df8d0d22104338a46b9857cfa9c30bd0, type: 3}
+    m_Font: {fileID: 12800000, guid: d06833812c141304f99a8da51fab53d5, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
@@ -43484,7 +43483,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: df8d0d22104338a46b9857cfa9c30bd0, type: 3}
+    m_Font: {fileID: 12800000, guid: d06833812c141304f99a8da51fab53d5, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
@@ -43565,7 +43564,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: df8d0d22104338a46b9857cfa9c30bd0, type: 3}
+    m_Font: {fileID: 12800000, guid: d06833812c141304f99a8da51fab53d5, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
@@ -48626,7 +48625,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: df8d0d22104338a46b9857cfa9c30bd0, type: 3}
+    m_Font: {fileID: 12800000, guid: d06833812c141304f99a8da51fab53d5, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
@@ -56821,7 +56820,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: df8d0d22104338a46b9857cfa9c30bd0, type: 3}
+    m_Font: {fileID: 12800000, guid: d06833812c141304f99a8da51fab53d5, type: 3}
     m_FontSize: 300
     m_FontStyle: 0
     m_BestFit: 0
@@ -80027,7 +80026,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 0
 --- !u!114 &1991843176
 MonoBehaviour:
   m_ObjectHideFlags: 0
