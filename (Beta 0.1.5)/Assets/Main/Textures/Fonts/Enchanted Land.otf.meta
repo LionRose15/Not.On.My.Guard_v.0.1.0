@@ -10,7 +10,8 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - Enchanted Land
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: df8d0d22104338a46b9857cfa9c30bd0, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
