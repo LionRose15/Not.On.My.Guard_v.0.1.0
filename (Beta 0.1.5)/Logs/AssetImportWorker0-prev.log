@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.17f1 (2d349551e475) revision 2962581'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'es' Physical Memory: 8012 MB
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'es' Physical Memory: 32656 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.1.17f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/LI0NR0SE15/Documents/(Beta 0.1.5)
+C:/Users/AMK/Documents/LionRose15/Ala/Not.On.My.Guard_v.0.1.0/(Beta 0.1.5)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65423
-Successfully changed project path to: C:/Users/LI0NR0SE15/Documents/(Beta 0.1.5)
-C:/Users/LI0NR0SE15/Documents/(Beta 0.1.5)
+50300
+Successfully changed project path to: C:/Users/AMK/Documents/LionRose15/Ala/Not.On.My.Guard_v.0.1.0/(Beta 0.1.5)
+C:/Users/AMK/Documents/LionRose15/Ala/Not.On.My.Guard_v.0.1.0/(Beta 0.1.5)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,67 +47,140 @@ C:/Users/LI0NR0SE15/Documents/(Beta 0.1.5)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 316.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.17f1 (2d349551e475)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/LI0NR0SE15/Documents/(Beta 0.1.5)/Assets
+[Subsystems] Discovering subsystems at path C:/Users/AMK/Documents/LionRose15/Ala/Not.On.My.Guard_v.0.1.0/(Beta 0.1.5)/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 600 (ID=0x3185)
-    Vendor:   Intel
-    VRAM:     4006 MB
-    Driver:   31.0.101.2111
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12137 MB
+    Driver:   31.0.15.1694
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017228 seconds.
+Registered in 0.003689 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 211.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.824 seconds
+- Completed reload, in  0.521 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1825ms)
-		BeginReloadAssembly (199ms)
+	ReloadAssembly (521ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1320ms)
-			LoadAssemblies (194ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (383ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
-				TypeCache.Initialize (323ms)
-					TypeCache.ScanAssembly (319ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (85ms)
+				TypeCache.Initialize (85ms)
+					TypeCache.ScanAssembly (83ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (784ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (139ms)
-				SetLoadedEditorAssemblies (24ms)
-				RefreshPlugins (212ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (132ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.018408 seconds.
-Android Extension - Scanning For ADB Devices 7341 ms
+Registered in 0.004456 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\LI0NR0SE15\Documents\(Beta 0.1.5)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\LI0NR0SE15\Documents\(Beta 0.1.5)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\AMK\Documents\LionRose15\Ala\Not.On.My.Guard_v.0.1.0\(Beta 0.1.5)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\AMK\Documents\LionRose15\Ala\Not.On.My.Guard_v.0.1.0\(Beta 0.1.5)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (636ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+				TypeCache.Initialize (194ms)
+					TypeCache.ScanAssembly (191ms)
+				ResolveRequiredComponents (3ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (58.4 KB). Loaded Objects now: 3892.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.441600 ms (FindLiveObjects: 0.208200 ms CreateObjectMapping: 0.078700 ms MarkObjects: 2.089200 ms  DeleteObjects: 0.064800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 229763.448720 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47b651a2be42a7f2f9e47f637bf98ee') in 0.005256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.465976 seconds.
+  path: Assets/Main/Scenes/MainMenu.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scenes/MainMenu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2747891bf7ecd96c4c5e2e2582b53efb') in 0.004601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.737307 seconds.
+  path: Assets/Main/Scenes/Game.unity
+  artifactKey: Guid(6a1692cbcadefb346903ccccf5eaad05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Scenes/Game.unity using Guid(6a1692cbcadefb346903ccccf5eaad05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82414d98b675a400929dba5ca105e9aa') in 0.004923 seconds 

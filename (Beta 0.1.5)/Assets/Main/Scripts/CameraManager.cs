@@ -4,29 +4,26 @@ namespace Basics
 {
     public class CameraManager : MonoBehaviour
     {
-        [SerializeField] private Camera _Camera;
-        [SerializeField] private Transform _FocusPoint;
+        [SerializeField] private float Sensitivity = 0.5f;
 
-        private Vector3 _Position;
+        private float _NewRotation = default;
+        private Vector3 _LastRotation = default;
 
         void Update()
         {
             if (Input.GetMouseButtonDown(0))
             {
-                _Position = _Camera.ScreenToViewportPoint(Input.mousePosition);
+                _NewRotation = Input.mousePosition.x;
+                _LastRotation = transform.eulerAngles;
             }
 
             else if (Input.GetMouseButton(0))
             {
-                Vector3 NewPosition = _Camera.ScreenToViewportPoint(Input.mousePosition);
-                Vector3 Direction = _Position - NewPosition;
+                var difference = Input.mousePosition.x - _NewRotation;
+                var newRotation = _LastRotation;
 
-                float RotationY = -Direction.x * 180;
-
-                _Camera.transform.position = _FocusPoint.position;
-                _Camera.transform.Rotate(new Vector3(0, 1, 0), RotationY, Space.World);
-
-                _Position = NewPosition;
+                newRotation.y = _LastRotation.y + (difference * Sensitivity);
+                transform.eulerAngles = newRotation;
             }
         }
     }
