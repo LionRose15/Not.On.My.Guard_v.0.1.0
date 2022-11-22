@@ -113,4 +113,4 @@ MonoBehaviour:
   _EnableColor: {r: 0, g: 1, b: 0, a: 0.19607843}
   _DisableColor: {r: 1, g: 0, b: 0, a: 0.19607843}
   _Turret: {fileID: 0}
-  OnClickPosition: {x: 0, y: 0.75, z: 0}
+  OnClickPosition: {x: 0, y: 0.32, z: 0}
