@@ -6,6 +6,7 @@ namespace Basics
     {
         public float BulletSpeed = 50f;
         private Transform _Target;
+        public GameObject bloodVFX;
 
         void Update()
         {
@@ -34,6 +35,8 @@ namespace Basics
 
         void Hit()
         {
+            GameObject effectInstantiate = (GameObject)Instantiate(bloodVFX, transform.position, transform.rotation);
+            Destroy(effectInstantiate, 1f);
             BasicsEnemy A = _Target.GetComponent<BasicsEnemy>();
             A.TakeDamage(50);
             Destroy(gameObject);  

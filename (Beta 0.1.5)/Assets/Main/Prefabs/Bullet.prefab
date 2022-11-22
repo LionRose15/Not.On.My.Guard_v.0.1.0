@@ -111,3 +111,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BulletSpeed: 7
+  bloodVFX: {fileID: 5246917488953022960, guid: 385072139dec22e46877fb794faf0d56, type: 3}
